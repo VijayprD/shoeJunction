@@ -1,28 +1,31 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-} */
+}
 
 
 /* OUR BEST SELLER  */
 .seller{
-margin-left: 133px;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .view{
-    text-decoration: none;
+   text-decoration: none;
     color: black;
     float: right;
-    margin-top: -67px;
-    margin-right: 108px;
-}
-u{
-    color: yellow;
+    margin-top: -4.5rem;
+    margin-right: 10rem;
 }
 .all{
     color: black;
     letter-spacing: 3px;
+    border: 2px solid yellow;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .our{
     display: flex;
