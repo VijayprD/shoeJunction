@@ -1,9 +1,71 @@
-/* usefull class */
-
-
-/* usefull class */
-
-
-/* footer  */
-
-/* footer  */
+/* OUR BEST SELLER  */
+.seller{
+margin-left: 133px;
+}
+.view{
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-top: -67px;
+    margin-right: 108px;
+}
+u{
+    color: yellow;
+}
+.all{
+    color: black;
+    letter-spacing: 3px;
+}
+.our{
+    display: flex;
+    margin-left: 120px;
+}
+.img{
+    height: 383px;
+    margin-left: 38px;
+}
+.sale{
+    background-color: rgb(77, 167, 77);
+    border-radius: 50%;
+    width: 35px;
+    height: 30px;
+    padding: 9px 3px 3px 7px;
+    color: white;
+    margin-left: 368px;
+    position: absolute;
+    margin-top: -396px;
+}
+a{
+    text-decoration: none;
+}
+.quick{
+    color: lavenderblush;
+    width: 223px;
+    height: 21px;
+    margin-top: -30px;
+    margin-left: 39px;
+    padding-left: 158px;
+    position: absolute;
+    padding-top: 5px;
+}
+.quick:hover{
+    background-color: black;
+    color: white;
+}
+.ton{
+    margin-left: 127px;
+}
+.dollor{
+    color: darkgray;
+    margin-left: 168px;
+    margin-top: -10px;
+}
+.o{
+    display: flex;
+    margin-left: 120px;
+}
+.star{
+    margin-left: 158px;
+    margin-bottom: 15px;
+}
+/* OUR BEST SELLER  */
