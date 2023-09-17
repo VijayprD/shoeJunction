@@ -29,7 +29,7 @@
 }
 .our{
     display: flex;
-    margin-left: 120px;
+    margin-left: 7rem;
 }
 .img{
     height: 383px;
@@ -38,13 +38,13 @@
 .sale{
     background-color: rgb(77, 167, 77);
     border-radius: 50%;
-    width: 35px;
-    height: 30px;
-    padding: 9px 3px 3px 7px;
+    width: 3rem;
+    height: 2rem;
+    padding: 0.5rem;
     color: white;
-    margin-left: 368px;
     position: absolute;
-    margin-top: -396px;
+    margin-left: 24rem;
+    margin-top: -24rem;
 }
 a{
     text-decoration: none;
