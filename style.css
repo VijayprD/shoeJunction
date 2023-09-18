@@ -22,7 +22,7 @@
 }
 
 .container {
-  margin: 0 3vw;
+  margin: 0 4vw;
 }
 nav .main-nav {
   height: 13vh;
@@ -87,9 +87,9 @@ nav .main-nav {
   background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.dark{
+.dark {
   height: 100%;
-  background-color: rgba(86, 85, 85,.2);
+  background-color: rgba(86, 85, 85, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,54 +122,121 @@ nav .main-nav {
 /* hero section  */
 
 /* about us  */
-.about{
-  border-top:1px solid rgb(202, 202, 202) ;
-  margin: 2rem 3vw;
+.about {
+  border-top: 1px solid rgb(202, 202, 202);
+  margin: 2rem 4vw;
   height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about-left{
+.about-left {
   width: 50vw;
 }
-.about-left img{
-width: 94%;
-display: block;
-margin: auto;
+.about-left img {
+  width: 94%;
+  display: block;
+  margin: auto;
 }
-.about-right{
+.about-right {
   width: 50vw;
   padding: 3rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.about-right .about-heading{
+.about-right .about-heading {
   color: orange;
   font-size: 1.7rem;
   margin: 2rem 0;
   font-weight: bold;
 }
-.about-right .about-content{
+.about-right .about-content {
   font-size: 2.7rem;
   margin: 2rem 0;
 }
-.about-right .about-para{
+.about-right .about-para {
   font-size: 1.3rem;
   margin: 2rem 0;
   color: rgb(165, 165, 165);
   line-height: 2rem;
 }
-.about-right .about-para a{
+.about-right .about-para a {
   font-size: 1.5rem;
   margin: 2rem 0;
-  border-bottom:3px solid orange ;
+  border-bottom: 3px solid orange;
   color: black;
 }
-.about-right .about-para a:hover{
-  border-bottom:3px solid orangered ;
-  
+.about-right .about-para a:hover {
+  border-bottom: 3px solid orangered;
 }
 /* about us  */
+
+/* first made  */
+.first-sec {
+  height: 110vh;
+  background-color: rgb(230, 230, 230);
+}
+.first-sec .up {
+  text-align: center;
+}
+.first-sec .up h1 {
+  padding-top: 4rem;
+  font-size: 3.3rem;
+}
+.first-sec .up p {
+  padding: 1rem 8rem;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  color: rgb(130, 130, 130);
+}
+.first-sec .lower{
+  display: flex;
+  height: 100%;
+}
+.first-sec .lower .first-sec-left{
+width: 20%;
+}
+.first-sec-left .box{
+  margin: 3rem 0;
+}
+.first-sec-left .no{
+color: orange;
+font-size:1.5rem ;
+}
+.first-sec-left h2{
+  font-size:2.5rem ;
+}
+.first-sec-left p{
+  font-size:1.5rem ;
+  color: gray;
+}
+.first-sec .lower .first-sec-mid{
+  width: 60%;
+}
+.first-sec-mid img{
+width: 90%;
+margin: auto;
+display: block;
+}
+
+.first-sec .lower .first-sec-right{
+width: 20%;
+}
+.first-sec-right .box{
+  margin: 3rem 0;
+}
+.first-sec-right .no{
+color: orange;
+font-size:1.5rem ;
+}
+.first-sec-right h2{
+  font-size:2.5rem ;
+}
+.first-sec-right p{
+  font-size:1.5rem ;
+  color: gray;
+}
+
+/* first made  */
 
 /* OUR BEST SELLER  */
 .seller {
