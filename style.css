@@ -4,6 +4,7 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 /* common class  */
 
 /* common class  */
@@ -24,15 +25,18 @@
 .container {
   margin: 0 4vw;
 }
+
 nav .main-nav {
   height: 13vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .nav-left {
   width: 22vw;
 }
+
 .nav-left h1 a {
   text-decoration: none;
   font-size: 1.8rem;
@@ -40,43 +44,54 @@ nav .main-nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
 }
+
 .nav-mid {
   width: 50vw;
 }
+
 .nav-mid ul {
   display: flex;
   justify-content: space-evenly;
 }
+
 .nav-mid ul {
   list-style: none;
 }
+
 .nav-mid ul li a {
   text-transform: capitalize;
   font-size: 1.4rem;
   color: rgb(160, 160, 160);
 }
+
 .nav-mid ul li a:hover {
   color: rgb(100, 100, 100);
 }
+
 .nav-right {
   width: 28vw;
 }
+
 .nav-right ul {
   display: flex;
   justify-content: right;
 }
+
 .nav-right ul li {
   list-style: none;
   margin: 0 15px;
 }
+
 .nav-right ul li a {
   text-transform: capitalize;
   font-size: 1.4rem;
   color: rgb(160, 160, 160);
 }
+
 .nav-right ul li a .fa-solid {
   color: black;
 }
+
 /* navbar  */
 
 /* hero section  */
@@ -84,12 +99,14 @@ nav .main-nav {
   height: 125vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.hero-full-sec{
+
+.hero-full-sec {
   height: 110vh;
   background-image: url(img/hero.jpg);
   background-position: center;
   background-size: cover;
 }
+
 .dark {
   height: 100%;
   background-color: rgba(86, 85, 85, 0.2);
@@ -97,11 +114,13 @@ nav .main-nav {
   flex-direction: column;
   justify-content: center;
 }
+
 .hero-main h1 {
   color: white;
   font-size: 5rem;
   margin: 0.5rem 2rem;
 }
+
 .hero-para p {
   color: white;
   font-size: 1.7rem;
@@ -117,11 +136,13 @@ nav .main-nav {
   border: none;
   cursor: pointer;
 }
+
 .hero-btn button:hover {
   color: white;
   background-color: black;
 }
-.hero .logo{
+
+.hero .logo {
   height: 15vh;
   display: flex;
   justify-content: space-around;
@@ -139,44 +160,53 @@ nav .main-nav {
   justify-content: center;
   align-items: center;
 }
+
 .about-left {
   width: 50vw;
 }
+
 .about-left img {
   width: 94%;
   display: block;
   margin: auto;
 }
+
 .about-right {
   width: 50vw;
   padding: 3rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .about-right .about-heading {
   color: orange;
   font-size: 1.7rem;
   margin: 2rem 0;
   font-weight: bold;
 }
+
 .about-right .about-content {
   font-size: 2.7rem;
   margin: 2rem 0;
 }
+
 .about-right .about-para {
   font-size: 1.3rem;
   margin: 2rem 0;
   color: rgb(165, 165, 165);
   line-height: 2rem;
 }
+
 .about-right .about-para a {
   font-size: 1.5rem;
   margin: 2rem 0;
   border-bottom: 3px solid orange;
   color: black;
 }
+
 .about-right .about-para a:hover {
   border-bottom: 3px solid orangered;
 }
+
 /* about us  */
 
 /* first made  */
@@ -184,64 +214,79 @@ nav .main-nav {
   height: 120vh;
   background-color: rgb(230, 230, 230);
 }
+
 .first-sec .up {
   text-align: center;
 }
+
 .first-sec .up h1 {
   padding-top: 4rem;
   font-size: 3.3rem;
 }
+
 .first-sec .up p {
   padding: 1rem 8rem;
   font-size: 1.5rem;
   line-height: 2.1rem;
   color: rgb(130, 130, 130);
 }
-.first-sec .lower{
+
+.first-sec .lower {
   display: flex;
   height: 100%;
 }
-.first-sec .lower .first-sec-left{
-width: 20%;
-}
-.first-sec-left .box{
-  margin: 3rem 0;
-}
-.first-sec-left .no{
-color: orange;
-font-size:1.5rem ;
-}
-.first-sec-left h2{
-  font-size:2.5rem ;
-}
-.first-sec-left p{
-  font-size:1.5rem ;
-  color: gray;
-}
-.first-sec .lower .first-sec-mid{
-  width: 60%;
-}
-.first-sec-mid img{
-width: 90%;
-margin: auto;
-display: block;
+
+.first-sec .lower .first-sec-left {
+  width: 20%;
 }
 
-.first-sec .lower .first-sec-right{
-width: 20%;
-}
-.first-sec-right .box{
+.first-sec-left .box {
   margin: 3rem 0;
 }
-.first-sec-right .no{
-color: orange;
-font-size:1.5rem ;
+
+.first-sec-left .no {
+  color: orange;
+  font-size: 1.5rem;
 }
-.first-sec-right h2{
-  font-size:2.5rem ;
+
+.first-sec-left h2 {
+  font-size: 2.5rem;
 }
-.first-sec-right p{
-  font-size:1.5rem ;
+
+.first-sec-left p {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.first-sec .lower .first-sec-mid {
+  width: 60%;
+}
+
+.first-sec-mid img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.first-sec .lower .first-sec-right {
+  width: 20%;
+}
+
+.first-sec-right .box {
+  margin: 3rem 0;
+}
+
+.first-sec-right .no {
+  color: orange;
+  font-size: 1.5rem;
+}
+
+.first-sec-right h2 {
+  font-size: 2.5rem;
+}
+
+.first-sec-right p {
+  font-size: 1.5rem;
   color: gray;
 }
 
@@ -253,6 +298,7 @@ font-size:1.5rem ;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
+
 .view {
   text-decoration: none;
   color: black;
@@ -260,6 +306,7 @@ font-size:1.5rem ;
   margin-top: -4.5rem;
   margin-right: 10rem;
 }
+
 .all {
   color: black;
   letter-spacing: 3px;
@@ -268,14 +315,17 @@ font-size:1.5rem ;
   border-left: none;
   border-right: none;
 }
+
 .our {
   display: flex;
   margin-left: 7rem;
 }
+
 .img {
   height: 383px;
   margin-left: 38px;
 }
+
 .sale {
   background-color: black;
   border-radius: 50%;
@@ -288,9 +338,11 @@ font-size:1.5rem ;
   padding-top: 0.6rem;
   padding-left: 0.3rem;
 }
+
 a {
   text-decoration: none;
 }
+
 .quick {
   color: lavenderblush;
   width: 23.8rem;
@@ -301,44 +353,101 @@ a {
   position: absolute;
   padding-top: 5px;
 }
+
 .quick:hover {
   background-color: rgb(60, 53, 53);
   color: white;
 }
+
 .ton {
   margin-left: 9rem;
   margin-top: 2rem;
 }
+
 .dollor {
   color: darkgray;
   margin-left: 13.5rem;
   margin-top: 1rem;
 }
+
 .o {
   display: flex;
   margin-left: 7rem;
 }
+
 .star {
   margin-left: 11.5rem;
   margin-bottom: 5rem;
   margin-top: 1rem;
   color: gray;
 }
+
 /* OUR BEST SELLER  */
 
 /* catogroy */
-.catogroy{
+.catogroy {
   display: flex;
   height: 80vh;
 }
-.catogroy .cat{
-width: 50%;
-margin: 0 1rem;
+
+.catogroy .male {
+  background-image: url(img/recycled-shoe-store-shop-men-image-thumbnail.jpg);
+  background-size: cover;
+  width: 50%;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.catogroy .cat img{
-  width: 100%;
-  margin: auto;
-  display: block;
-  
-  }
+
+.male h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 1rem;
+}
+.male button{
+  padding: .7rem 1rem;
+  border:1px solid white;
+  background-color: transparent;
+}
+.male button a{
+color: black;
+font-size: 1.1rem;
+}
+.male button:hover, .male button a:hover{
+  background-color: white;
+
+} 
+
+.catogroy .female {
+  background-image: url(img/recycled-shoe-store-shop-women-image-tumbnail.jpg);
+  background-size: cover;
+  width: 50%;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.female h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 1rem;
+}
+.female button{
+  padding: .7rem 1rem;
+  border:1px solid white;
+  background-color: transparent;
+}
+.female button a{
+color: black;
+font-size: 1.1rem;
+}
+.female button:hover, .female button a:hover{
+  background-color: white;
+
+} 
+
 /* catogroy */
