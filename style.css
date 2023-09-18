@@ -316,3 +316,20 @@ a {
   color: gray;
 }
 /* OUR BEST SELLER  */
+
+/* catogroy */
+.catogroy{
+  display: flex;
+  height: 80vh;
+}
+.catogroy .cat{
+width: 50%;
+margin: 0 1rem;
+}
+.catogroy .cat img{
+  width: 100%;
+  margin: auto;
+  display: block;
+  
+  }
+/* catogroy */
