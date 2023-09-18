@@ -81,11 +81,14 @@ nav .main-nav {
 
 /* hero section  */
 .hero {
+  height: 125vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-full-sec{
   height: 110vh;
   background-image: url(img/hero.jpg);
   background-position: center;
   background-size: cover;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .dark {
   height: 100%;
@@ -117,6 +120,12 @@ nav .main-nav {
 .hero-btn button:hover {
   color: white;
   background-color: black;
+}
+.hero .logo{
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* hero section  */
