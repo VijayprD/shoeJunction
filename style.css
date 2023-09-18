@@ -293,15 +293,21 @@ nav .main-nav {
 /* first made  */
 
 /* OUR BEST SELLER  */
+.item {
+  margin-top: 6rem;
+}
+
 .seller {
   margin-left: 10rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  font-size: 2rem;
+  color: #524848;
 }
 
 .view {
   text-decoration: none;
-  color: black;
+  color: #524848;
   float: right;
   margin-top: -4.5rem;
   margin-right: 10rem;
@@ -333,8 +339,8 @@ nav .main-nav {
   height: 2.5rem;
   color: white;
   position: absolute;
-  margin-left: 24rem;
-  margin-top: -24rem;
+  margin-left: 24.5rem;
+  margin-top: -24.5rem;
   padding-top: 0.6rem;
   padding-left: 0.3rem;
 }
@@ -406,19 +412,23 @@ a {
   font-size: 3rem;
   margin: 1rem;
 }
-.male button{
+
+.male button {
   padding: .7rem 1rem;
-  border:1px solid white;
+  border: 1px solid white;
   background-color: transparent;
 }
-.male button a{
-color: black;
-font-size: 1.1rem;
+
+.male button a {
+  color: black;
+  font-size: 1.1rem;
 }
-.male button:hover, .male button a:hover{
+
+.male button:hover,
+.male button a:hover {
   background-color: white;
 
-} 
+}
 
 .catogroy .female {
   background-image: url(img/recycled-shoe-store-shop-women-image-tumbnail.jpg);
@@ -436,18 +446,56 @@ font-size: 1.1rem;
   font-size: 3rem;
   margin: 1rem;
 }
-.female button{
+
+.female button {
   padding: .7rem 1rem;
-  border:1px solid white;
+  border: 1px solid white;
   background-color: transparent;
 }
-.female button a{
-color: black;
-font-size: 1.1rem;
+
+.female button a {
+  color: black;
+  font-size: 1.1rem;
 }
-.female button:hover, .female button a:hover{
+
+.female button:hover,
+.female button a:hover {
   background-color: white;
 
-} 
+}
+
 
 /* catogroy */
+
+/* second made  */
+
+#second-made {
+ background-color: rgb(236 236 236);
+  width: 92%;
+  margin-bottom: 3rem;
+  height: 30rem;
+  display: flex;
+}
+
+.eu p {
+  width: 29rem;
+  margin-left: 9rem;
+  color: rgb(236 236 236);
+  font-size: 1.4rem;
+  padding-top: 6rem;
+}
+.badge{
+  margin-left: 4rem;
+}
+.badge img{
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.circle img {
+  border-radius: 50%;
+  border: 3px dotted black;
+  margin-left: 15rem;
+  margin-top: 6rem;
+}
+
+/* second made  */
