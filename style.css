@@ -79,6 +79,16 @@ color: rgb(160, 160, 160);
 }
 /* navbar  */
 
+/* hero section  */
+.hero{
+  height: 110vh;
+  background-image: url(img/hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* hero section  */
+
 /* OUR BEST SELLER  */
 .seller {
   margin-left: 10rem;
