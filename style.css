@@ -3,37 +3,54 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-}
+  }
+  /* common class  */
+
+  /* common class  */
+
+  /* navbar  */
+  .head {
+    height: 5vh;
+    background-color: rgb(214, 212, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head p{
+    color:rgb(141, 140, 140) ;
+  }
+  /* navbar  */
 
 
 /* OUR BEST SELLER  */
-.seller{
-    margin-left: 10rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+.seller {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
-.view{
-   text-decoration: none;
-    color: black;
-    float: right;
-    margin-top: -4.5rem;
-    margin-right: 10rem;
+.view {
+  text-decoration: none;
+  color: black;
+  float: right;
+  margin-top: -4.5rem;
+  margin-right: 10rem;
 }
-.all{
-    color: black;
-    letter-spacing: 3px;
-    border: 2px solid yellow;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+.all {
+  color: black;
+  letter-spacing: 3px;
+  border: 2px solid yellow;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .our{
     display: flex;
     margin-left: 7rem;
 }
-.img{
-    height: 383px;
-    margin-left: 38px;
+.img {
+  height: 383px;
+  margin-left: 38px;
 }
 .sale{
     background-color: rgb(77, 167, 77);
@@ -46,37 +63,37 @@
     margin-left: 24rem;
     margin-top: -24rem;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.quick{
-    color: lavenderblush;
-    width: 223px;
-    height: 21px;
-    margin-top: -30px;
-    margin-left: 39px;
-    padding-left: 158px;
-    position: absolute;
-    padding-top: 5px;
+.quick {
+  color: lavenderblush;
+  width: 223px;
+  height: 21px;
+  margin-top: -30px;
+  margin-left: 39px;
+  padding-left: 158px;
+  position: absolute;
+  padding-top: 5px;
 }
-.quick:hover{
-    background-color: black;
-    color: white;
+.quick:hover {
+  background-color: black;
+  color: white;
 }
-.ton{
-    margin-left: 127px;
+.ton {
+  margin-left: 127px;
 }
-.dollor{
-    color: darkgray;
-    margin-left: 168px;
-    margin-top: -10px;
+.dollor {
+  color: darkgray;
+  margin-left: 168px;
+  margin-top: -10px;
 }
-.o{
-    display: flex;
-    margin-left: 120px;
+.o {
+  display: flex;
+  margin-left: 120px;
 }
-.star{
-    margin-left: 158px;
-    margin-bottom: 15px;
+.star {
+  margin-left: 158px;
+  margin-bottom: 15px;
 }
 /* OUR BEST SELLER  */
