@@ -313,7 +313,7 @@ nav .main-nav {
 /* responsive for mobile  */
 @media only screen and (max-width: 420px) {
   .about {
-    /* margin-top: 3rem; */
+    margin: 1rem 4vw;
     border: none;
     height: 100vh;
     display: flex;
@@ -440,7 +440,7 @@ nav .main-nav {
 /* responsive for mobile  */
 @media only screen and (max-width: 420px) {
   .first-sec {
-    height: 150vh;
+    height: 140vh;
   }
   .first-sec .up h1 {
     width: 70%;
