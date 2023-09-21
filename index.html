@@ -22,31 +22,36 @@
       <div class="nav-left">
         <h1><a href="index.html">Shoe-Junction</a></h1>
       </div>
-      <div class="nav-mid">
+      <div class="nav-mid" id="mob-res">
         <ul>
-          <li><a href="">man</a></li>
-          <li><a href="">women</a></li>
-          <li><a href="">collection</a></li>
-          <li><a href="">lookbook</a></li>
-          <li><a href="">sale</a></li>
+          <li><a href="#">man</a></li>
+          <li><a href="#">women</a></li>
+          <li><a href="#">collection</a></li>
+          <li><a href="#">lookbook</a></li>
+          <li><a href="#">sale</a></li>
         </ul>
       </div>
       <div class="nav-right">
         <ul>
-          <li><a href="">our story</a></li>
-          <li><a href="">contact</a></li>
-          <li>
+          <li class="link"><a href="">our story</a></li>
+          <li class="link"><a href="">contact</a></li>
+          <li class="link">
             <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
           </li>
-          <li>
+          <li class="link">
             <a href=""><i class="fa-solid fa-user"></i></a>
           </li>
+          <div class="nav-bar" onclick="responsiveNavbar()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
         </ul>
       </div>
     </div>
   </nav>
   <!-- hero sec  -->
-  <section class="hero container">
+  <section class="hero container" id="hero">
     <div class="hero-full-sec">
       <div class="dark">
         <div class="hero-main">
@@ -70,14 +75,6 @@
         <img src="img/recycled-shoe-store-featured-in-logo-5.svg" alt="" />
       </div>
     </div>
-    <!-- <div class="logo">
-        <p>AS SEEN IN:</p>
-        <img src="img/recycled-shoe-store-featured-in-logo-1.svg" alt="">
-        <img src="img/recycled-shoe-store-featured-in-logo-2.svg" alt="">
-        <img src="img/recycled-shoe-store-featured-in-logo-3.svg" alt="">
-        <img src="img/recycled-shoe-store-featured-in-logo-4.svg" alt="">
-        <img src="img/recycled-shoe-store-featured-in-logo-5.svg" alt="">
-      </div> -->
   </section>
   <!-- About us -->
   <section class="about">
@@ -392,7 +389,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="o">
       <div class="best">
         <img src="img/recycled-shoe-product-image-017-768x768 (1).jpg" alt="" class="img" />
@@ -448,7 +445,8 @@
   <section class="container" id="second-made">
     <div>
       <div class="eu">
-        <p>Eu eget felis erat mauris aliquam mattis lacus, arcu leo aliquam sapien pulvinar laoreet vulputate sem aliquet phasellus egestas felis, est, vulputate morbi massa mauris vestibulum dui odio.</p>
+        <p>Eu eget felis erat mauris aliquam mattis lacus, arcu leo aliquam sapien pulvinar laoreet vulputate sem
+          aliquet phasellus egestas felis, est, vulputate morbi massa mauris vestibulum dui odio.</p>
       </div>
 
       <div class="badge">
@@ -466,68 +464,67 @@
   <!-- appericate -->
   <section></section>
   <!-- Footer  -->
-     <div class="container1">
-      <div class="secure">
-          <h2><i class="fa-solid fa-lock"></i>Secure Payment</h2>
-      </div>
-      <div>
-          <h2><i class="fa-solid fa-truck"></i>Free Shipping</h2>
-      </div>
-      <div>
-          <h2><i class="fa-solid fa-recycle"></i>Return</h2>
-      </div>
+  <div class="container1">
+    <div class="secure">
+      <h2><i class="fa-solid fa-lock"></i>Secure Payment</h2>
+    </div>
+    <div>
+      <h2><i class="fa-solid fa-truck"></i>Free Shipping</h2>
+    </div>
+    <div>
+      <h2><i class="fa-solid fa-recycle"></i>Return</h2>
+    </div>
   </div>
   <footer>
-      <div>
-          <div id="title"><img src="./plashoe.png"></div>
-          <div id="subtitle">
-              <div><a href="#">Praesent eget tortor</a></div>
-              <div><a href="#">sit risus egestas nulla</a></div>
-              <div><a href="#">pharetra ornare quis</a></div>
-              <div><a href="#">bibendum est</a></div>
-              <div><a href="#">bibendum sapien</a></div>
-              <div><a href="#">proin nascetur</a></div>
-          </div>
+    <div>
+      <div id="title"><img src="./plashoe.png"></div>
+      <div id="subtitle">
+        <div><a href="#">Praesent eget tortor</a></div>
+        <div><a href="#">sit risus egestas nulla</a></div>
+        <div><a href="#">pharetra ornare quis</a></div>
+        <div><a href="#">bibendum est</a></div>
+        <div><a href="#">bibendum sapien</a></div>
+        <div><a href="#">proin nascetur</a></div>
       </div>
-      <div>
-          <div id="title">Shop</div>
-          <div id="subtitle">
-              <div><a href="#">Shop Men</a></div>
-              <div><a href="#">Shop</a></div>
-              <div><a href="#">Women</a></div>
-              <div><a href="#">Lookbook</a></div>
-              <div><a href="#">Gift Card</a></div>
-              <div><a href="#">Sale</a></div>
-          </div>
+    </div>
+    <div>
+      <div id="title">Shop</div>
+      <div id="subtitle">
+        <div><a href="#">Shop Men</a></div>
+        <div><a href="#">Shop</a></div>
+        <div><a href="#">Women</a></div>
+        <div><a href="#">Lookbook</a></div>
+        <div><a href="#">Gift Card</a></div>
+        <div><a href="#">Sale</a></div>
       </div>
-      <div>
-          <div id="title">About</div>
-          <div id="subtitle">
-              <div><a href="#">Our Story</a></div>
-              <div><a href="#">Our Materials</a></div>
-              <div><a href="#">Our Value</a></div>
-              <div><a href="#">Sustainability</a></div>
-              <div><a href="#">Manufacture</a></div>
-          </div>
+    </div>
+    <div>
+      <div id="title">About</div>
+      <div id="subtitle">
+        <div><a href="#">Our Story</a></div>
+        <div><a href="#">Our Materials</a></div>
+        <div><a href="#">Our Value</a></div>
+        <div><a href="#">Sustainability</a></div>
+        <div><a href="#">Manufacture</a></div>
       </div>
-      <div>
-          <div id="title">Need Help ?</div>
-          <div id="subtitle">
-              <div><a href="#">FAQs</a></div>
-              <div><a href="#">Shipping & Returns</a></div>
-              <div><a href="#">Shoe Care</a></div>
-              <div><a href="#">Size Chart</a></div>
-              <div><a href="#">Contact Us</a></div>
-          </div>
+    </div>
+    <div>
+      <div id="title">Need Help ?</div>
+      <div id="subtitle">
+        <div><a href="#">FAQs</a></div>
+        <div><a href="#">Shipping & Returns</a></div>
+        <div><a href="#">Shoe Care</a></div>
+        <div><a href="#">Size Chart</a></div>
+        <div><a href="#">Contact Us</a></div>
       </div>
-      <div class="containerback">
-          <div class="box-1"><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
-          <div class="box-1"><a href="#"><i class="fa-brands fa-pinterest-p fa-2xl"></i></a></div>
-          <div class="box-1"><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
-          <div class="box-1"><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
-      </div>
-
-      </div>
+    </div>
+    <div class="containerback">
+      <div class="box-1"><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
+      <div class="box-1"><a href="#"><i class="fa-brands fa-pinterest-p fa-2xl"></i></a></div>
+      <div class="box-1"><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
+      <div class="box-1"><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
+    </div>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
