@@ -99,7 +99,7 @@ nav .main-nav {
   height: 0.3rem;
   margin: 0.2rem;
 }
-/* responsive */
+/* responsive for mobile  */
 @media only screen and (max-width: 420px) {
   body {
     margin: 0;
@@ -110,7 +110,7 @@ nav .main-nav {
     display: none;
   }
   nav .main-nav {
-    height: 13vh;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,7 +133,7 @@ nav .main-nav {
   .mob-mid {
     z-index: 999;
     position: absolute;
-    top: 13vh;
+    top: 10vh;
     left: 0;
     display: flex;
     height: 90vh;
@@ -163,7 +163,7 @@ nav .main-nav {
   }
 }
 
-/* responsive */
+/* responsive for mobile  */
 /* navbar  */
 
 /* hero section  */
@@ -220,7 +220,39 @@ nav .main-nav {
   justify-content: space-around;
   align-items: center;
 }
-
+/* responsive for mobile  */
+@media only screen and (max-width: 420px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero-full-sec {
+    height: 100vh;
+    background-image: url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .dark {
+    text-align: center;
+  }
+  .hero-main h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  .hero-para p {
+    color: white;
+    font-size: 1rem;
+  }
+  .hero-btn button {
+    width: 80%;
+    font-size: 1.2rem;
+    margin: 1rem 2rem;
+    padding: 0.7rem 2rem;
+  }
+  .hero .logo {
+    display: none;
+  }
+}
+/* responsive for mobile  */
 /* hero section  */
 
 /* about us  */
@@ -278,7 +310,51 @@ nav .main-nav {
 .about-right .about-para a:hover {
   border-bottom: 3px solid orangered;
 }
+/* responsive for mobile  */
+@media only screen and (max-width: 420px) {
+  .about {
+    /* margin-top: 3rem; */
+    border: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-left {
+    width: 100vw;
+  }
 
+  .about-left img {
+    width: 90%;
+  }
+  .about-right {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .about-right .about-heading {
+    font-size: 1rem;
+    margin: 0.5rem 1.5rem;
+  }
+
+  .about-right .about-content {
+    font-size: 1.1rem;
+    margin: 0.5rem 1.5rem;
+  }
+
+  .about-right .about-para {
+    font-size: 0.9rem;
+    margin: 0.5rem 1.5rem;
+    line-height: 1.1rem;
+  }
+
+  .about-right .about-para a {
+    font-size: 1rem;
+  }
+}
+/* responsive for mobile  */
 /* about us  */
 
 /* first made  */
@@ -361,7 +437,65 @@ nav .main-nav {
   font-size: 1.5rem;
   color: gray;
 }
+/* responsive for mobile  */
+@media only screen and (max-width: 420px) {
+  .first-sec {
+    height: 150vh;
+  }
+  .first-sec .up h1 {
+    width: 70%;
+    margin: auto;
+    padding-top: 1.4rem;
+    font-size: 1.5rem;
+  }
 
+  .first-sec .up p {
+    padding: 0.6rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .first-sec .lower {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .first-sec .lower .first-sec-left,
+  .first-sec .lower .first-sec-right {
+    width: 100%;
+  }
+
+  .first-sec-left .box,
+  .first-sec-right .box {
+    margin: 1rem 0.6rem;
+  }
+
+  .first-sec-left .no,
+  .first-sec-right .no {
+    font-size: 1rem;
+  }
+
+  .first-sec-left h2,
+  .first-sec-right h2 {
+    font-size: 1.5rem;
+  }
+
+  .first-sec-left p,
+  .first-sec-right p {
+    font-size: 1rem;
+  }
+
+  .first-sec .lower .first-sec-mid {
+    width: 100%;
+  }
+
+  .first-sec-mid img {
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+}
+/* responsive for mobile  */
 /* first made  */
 
 /* OUR BEST SELLER  */
