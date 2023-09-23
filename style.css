@@ -661,11 +661,11 @@ a {
     margin-left: -1.4rem;
   }
   #best{
-    margin-left: -3.9rem;
+    margin-left: -3.6rem;
   }
   .img {
-    width: 59%;
-    height: 44%;
+    width: 53%;
+    height: 42%;
   }
 
   .sale {
@@ -675,8 +675,8 @@ a {
     height: 2.1rem;
     color: white;
     position: absolute;
-    margin-left: 7.2rem;
-    margin-top: -10rem;
+    margin-left: 6.8rem;
+    margin-top: -9.5rem;
     padding-top: 0.4rem;
     padding-left: 0.3rem;
   }
@@ -684,15 +684,16 @@ a {
        display: none;
   }
  .ton{
-  margin-left: 3rem;
-  width: 8.4rem;
+  margin-left: 1.8rem;
+  width: 9rem;
+  padding-left: 0.9rem;
   margin-top: 1.5rem;
  }
 .dollor{
   margin-left: 3.5rem;
 }
  .star{
-  margin-left: 3rem;
+  margin-left: 2.5rem;
  }
 #item{
   margin-top: 1rem;
