@@ -628,11 +628,11 @@ a {
 /* responsive moblie */
 @media only screen and (max-width:420px) {
   .item {
-    margin-top: 5rem;
+    margin-top: -6rem;
   }
 
   .seller {
-    margin-left: 6rem;
+    margin-left: 4.8rem;
     width: 100%;
     margin-top: 9rem;
   }
@@ -650,7 +650,7 @@ a {
   .our {
     margin-top: 7rem;
     width: 100%;
-    margin-left: -1rem;
+    margin-left: -1.4rem;
   }
   #best{
     margin-left: -8rem;
@@ -658,16 +658,16 @@ a {
   .o {
     margin-top: 0rem;
     width: 100%;
-    margin-left: -1rem;
+    margin-left: -1.4rem;
   }
   #best{
-    margin-left: -8rem;
+    margin-left: -3rem;
   }
 
 
   .img {
-    width: 45%;
-    height: 39%;
+    width: 59%;
+    height: 44%;
   }
 
   .sale {
@@ -677,36 +677,40 @@ a {
     height: 2.1rem;
     color: white;
     position: absolute;
-    margin-left: 7.9rem;
-    margin-top: -9.9rem;
+    margin-left: 7.2rem;
+    margin-top: -10rem;
     padding-top: 0.4rem;
     padding-left: 0.3rem;
   }
 
-  .quick {
-    color: lavenderblush;
-    margin-left: -6rem;
-    position: absolute;
-    width: 7.3rem;
-    margin-top: -1.5rem;
-    margin-left: 2.4rem;
-    text-align: center;
+  .quick  {
+        color: lavenderblush;
+        position: absolute;
+        width: 15.3rem;
+        margin-top: -1.9rem;
+        margin-left: -6.6rem;
+        text-align: center;
   }
 
   .quick:hover {
     background-color: rgb(60, 53, 53);
     color: white;
+    width: 21%;
   }
  .ton{
   margin-left: 3rem;
-  width: 8rem;
+  width: 8.4rem;
   margin-top: 1.5rem;
  }
-
+.dollor{
+  margin-left: 3.5rem;
+}
  .star{
   margin-left: 3rem;
  }
-
+#item{
+  margin-top: 1rem;
+}
 }
 
 
@@ -908,8 +912,8 @@ a {
   }
   
   .badge img {
-    margin-left: -5rem;
-    padding: 3rem;
+    margin-left: -6rem;
+    padding: 3.5rem;
     margin-top: 0rem;
     
   }
@@ -917,7 +921,7 @@ a {
   .circle img {
     border-radius: 50%;
     border: 3px dotted black;
-    margin-left: -22.5rem;
+    margin-left: -23.5rem;
     margin-top: 3rem;
   }
 }
