@@ -150,7 +150,7 @@ nav .main-nav {
     justify-content: center;
     align-items: center;
     background: rgb(0, 0, 0);
-    
+
   }
 
   .mob-mid ul {
@@ -652,17 +652,21 @@ a {
     width: 100%;
     margin-left: -1.2rem;
   }
-  #best{
+
+  #best {
     margin-left: -8rem;
   }
+
   .o {
     margin-top: 0rem;
     width: 100%;
     margin-left: -1.4rem;
   }
-  #best{
+
+  #best {
     margin-left: -3.6rem;
   }
+
   .img {
     width: 53%;
     height: 42%;
@@ -680,24 +684,33 @@ a {
     padding-top: 0.4rem;
     padding-left: 0.3rem;
   }
-  .quick  {
-       display: none;
+
+  .quick {
+    display: none;
   }
- .ton{
-  margin-left: 1.8rem;
+
+  .ton {
+    /* margin-left: 1.8rem;
   width: 9rem;
   padding-left: 0.9rem;
-  margin-top: 1.5rem;
- }
-.dollor{
-  margin-left: 3.5rem;
-}
- .star{
-  margin-left: 2.5rem;
- }
-#item{
-  margin-top: 1rem;
-}
+  margin-top: 1.5rem; */
+    margin-left: 1rem;
+    width: 9rem;
+    padding-left: 1.9rem;
+    margin-top: 1.5rem;
+  }
+
+  .dollor {
+    margin-left: 3.5rem;
+  }
+
+  .star {
+    margin-left: 2.5rem;
+  }
+
+  #item {
+    margin-top: 1rem;
+  }
 }
 
 
@@ -777,61 +790,63 @@ a {
 .female button a:hover {
   background-color: white;
 }
+
 /*responsive moblie cat*/
-@media only screen and (max-width: 420px){
-  .catogroy{
+@media only screen and (max-width: 420px) {
+  .catogroy {
     display: block;
   }
+
   .catogroy .male {
     width: 92%;
     height: 60%;
     margin-bottom: 1rem;
   }
-  
+
   .male h1 {
     color: white;
     font-size: 3rem;
     margin: 1rem;
   }
-  
+
   .male button {
     padding: 0.7rem 1rem;
     border: 1px solid white;
     background-color: transparent;
   }
-  
+
   .male button a {
     color: black;
     font-size: 1.1rem;
   }
-  
+
   .male button:hover,
   .male button a:hover {
     background-color: white;
   }
-  
+
   .catogroy .female {
     width: 92%;
     height: 60%;
   }
-  
+
   .female h1 {
     color: white;
     font-size: 3rem;
     margin: 1rem;
   }
-  
+
   .female button {
     padding: 0.7rem 1rem;
     border: 1px solid white;
     background-color: transparent;
   }
-  
+
   .female button a {
     color: black;
     font-size: 1.1rem;
   }
-  
+
   .female button:hover,
   .female button a:hover {
     background-color: white;
@@ -876,9 +891,10 @@ a {
   margin-left: 15rem;
   margin-top: 6rem;
 }
+
 /* responsive moblie */
 
-@media only screen and (max-width:420px){
+@media only screen and (max-width:420px) {
   #second-made {
     background-color: rgb(236 236 236);
     width: 100%;
@@ -886,30 +902,29 @@ a {
     margin-left: 0rem;
     height: 47rem;
   }
-  
+
   .eu p {
     margin-left: 2.5rem;
     margin-top: 19rem;
     width: 300px;
     font-size: 19px;
   }
-  
+
   .badge {
     margin-left: 4rem;
     display: flex;
   }
-  
+
   .badge img {
-    margin-left: -6rem;
-    padding: 3.5rem;
+    margin-left: -7rem;
+    padding: 3.9rem;
     margin-top: 0rem;
-    
   }
-  
+
   .circle img {
     border-radius: 50%;
     border: 3px dotted black;
-    margin-left: -23.5rem;
+    margin-left: -24.5rem;
     margin-top: 3rem;
   }
 }
@@ -923,7 +938,8 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
-footer a{
+
+footer a {
   color: black;
 }
 
@@ -943,7 +959,8 @@ footer a{
 .fa-lock {
   margin-left: 3px;
 }
-.secure{
+
+.secure {
   margin-left: -20px;
 }
 
@@ -1001,22 +1018,25 @@ footer {
 .box-1:hover {
   transition: 0.3ms;
 }
+
 /* section better */
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-.full{
- width: 1450px;
- height: 500px;
- margin-left: 12px;
- position: relative;
- background-image: url(Screenshot\ 2023-09-20\ 164917.png);
- background-repeat: no-repeat;
- background-size: cover;
+
+.full {
+  width: 1450px;
+  height: 500px;
+  margin-left: 12px;
+  position: relative;
+  background-image: url(Screenshot\ 2023-09-20\ 164917.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#head1{
+
+#head1 {
   width: 100%;
   height: 100%;
   font-size: 30px;
@@ -1025,29 +1045,34 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-.mainhead{
+
+.mainhead {
   margin-top: 95px;
   font-weight: 550;
 }
-.mainpara{
+
+.mainpara {
   margin-top: 20px;
-    font-size: 21px;
-    font-weight: 300;
+  font-size: 21px;
+  font-weight: 300;
 }
-.boxx{
+
+.boxx {
   width: 151px;
   height: 50px;
   font-weight: 500;
   margin-top: 35px;
-  color:black;
+  color: black;
   font-size: 18px;
 
 }
-.btnmain a{
+
+.btnmain a {
   text-decoration: none;
   color: #524848;
 }
-.boxx:hover{
+
+.boxx:hover {
   background-color: rgb(29, 25, 25);
   font-weight: 600;
 
@@ -1055,85 +1080,100 @@ footer {
 
 /* customer speak */
 
-.cheka{
+.cheka {
   width: 965px;
   height: 545px;
 }
-.cusr1{
+
+.cusr1 {
   width: 301px;
   height: 301px;
   border: 0.5px solid black;
   margin-top: 60px;
 }
-.maincur{
+
+.maincur {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.mainpara{
+
+.mainpara {
   margin-top: 55px;
   font-size: 21px;
   font-weight: 800;
   margin-top: 24px;
   margin-left: 15px;
 }
-.fastar{
+
+.fastar {
   margin-top: 24px;
   margin-left: 15px;
   color: #e2e201;
 }
-.radu{
+
+.radu {
   font-size: 28px;
-    margin-top: -12px;
-    align-items: center;
+  margin-top: -12px;
+  align-items: center;
 }
-.name img{
+
+.name img {
   margin-top: 40px;
   margin-left: 15px;
 }
-.rat2{
+
+.rat2 {
   margin-top: 24px;
   margin-left: 15px;
   color: #e2e201;
 }
-.mainpara2{
+
+.mainpara2 {
   margin-top: 55px;
   font-size: 21px;
   font-weight: 800;
   margin-top: 24px;
   margin-left: 15px;
 }
-.cusr2{
+
+.cusr2 {
   width: 301px;
   height: 301px;
   border: 0.5px solid rgb(144, 131, 131);
   margin-top: 60px;
 }
-.maincurs2{
-      /* margin-top: 30px; */
-      margin-left: 432px;
-      margin-top: -318px;
-  }
-  .mainpara3{
-    margin-top: 55px;
-    font-size: 21px;
-    font-weight: 800;
-    margin-top: 24px;
-    margin-left: 15px;
-  }
-  .rat3{
-    margin-top: 24px;
-    margin-left: 15px;
-    color: #e2e201;
-  }
-  .name2{
-    margin-top: 50px;
-  }
-  .name3{
-    margin-top: 50px;
-  }
-  .rev1{
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-  }
+
+.maincurs2 {
+  /* margin-top: 30px; */
+  margin-left: 432px;
+  margin-top: -318px;
+}
+
+.mainpara3 {
+  margin-top: 55px;
+  font-size: 21px;
+  font-weight: 800;
+  margin-top: 24px;
+  margin-left: 15px;
+}
+
+.rat3 {
+  margin-top: 24px;
+  margin-left: 15px;
+  color: #e2e201;
+}
+
+.name2 {
+  margin-top: 50px;
+}
+
+.name3 {
+  margin-top: 50px;
+}
+
+.rev1 {
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
