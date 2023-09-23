@@ -1009,6 +1009,7 @@ footer {
 .box-1:hover {
   transition: 0.3ms;
 }
+
 /* section better */
 *{
   margin: 0px;
@@ -1051,11 +1052,25 @@ footer {
   font-size: 18px;
 
 }
+.boxx1{
+  width: 151px;
+  height: 50px;
+  font-weight: 500;
+  margin-top: 35px;
+  color:black;
+  font-size: 18px;
+
+}
 .btnmain a{
   text-decoration: none;
   color: #524848;
 }
 .boxx:hover{
+  background-color: rgb(29, 25, 25);
+  font-weight: 600;
+
+}
+.boxx1:hover{
   background-color: rgb(29, 25, 25);
   font-weight: 600;
 
@@ -1145,3 +1160,128 @@ footer {
     text-align: center;
     margin-top: 50px;
   }
+  /* responsive customer speak */
+  @media only screen  and  (max-width: 420px){
+    .radu h2{
+      margin-top: -19px;
+      margin-left: -575px;
+      font-size: 28px;
+    }
+    .maincur{
+      display: block;
+      height: 100px;
+      width: 100px;
+      margin-left: 30px;
+      margin-top: -25px;
+    }
+    .cheka{
+      width: 965px;
+      height: 1080px;
+    }
+    .cusr1{
+      width: 301px;
+      height: 301px;
+      border: 0.5px solid black;
+      margin-top: 40px;
+    }
+    .cusr2{
+      width: 301px;
+      height: 301px;
+      border: 0.5px solid rgb(144, 131, 131);
+      margin-top: 400px;
+      margin-left: -430px;
+    }
+    .rev1{
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+    }
+    }
+    /* appreciate responsive */
+    @media only screen  and  (max-width: 420px){
+      .full{
+        width: fit-content;
+        height: 500px;
+        margin-left: 12px;
+        margin-right: 10px;
+        background-image: url(Screenshot\ 2023-09-20\ 164917.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .mainhead{
+        margin-top: 95px;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+      }
+   
+    .mainpara {
+      font-size: 18px;
+      font-weight: 300;
+      margin-top: 24px;
+      margin-left: 15px;
+        margin-top: 24px;
+        margin-left: 15px;
+    }
+    .btnmain .boxx{
+      width: 260px;
+      height: 50px;
+      font-weight: 500;
+      margin-top: 35px;
+      margin-left: 45px;
+      color: black;
+      font-size: 18px;
+    }
+    .btnmain .boxx1{
+      width: 260px;
+      height: 50px;
+      font-weight: 500;
+      margin-left: 45px;
+      margin-top: 35px;
+      color: black;
+      font-size: 18px;
+    }
+}
+@media only screen  and  (max-width: 420px){
+.container1{
+  display: block;
+  background-color: white;
+  height: 180px;
+}
+.secure{
+  margin-top: 20px;
+  margin-left: 29px;
+}
+.secure1{
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.secure2{
+  margin-top: 15px;
+  margin-left: 30px;
+}
+footer{
+  display: block;
+  height: 700px;
+}
+#title{
+font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    margin-top: 50px;
+    margin-left: -15px;
+}
+.containerback {
+  column-gap: 10px;
+  margin-left: -100px;
+  margin-top: -760px;
+}
+.pla{
+  margin-top: -30px;
+}
+.start{
+   ;
+}
+
+
+}
