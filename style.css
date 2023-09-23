@@ -632,7 +632,7 @@ a {
   }
 
   .seller {
-    margin-left: 6.5rem;
+    margin-left: 5.5rem;
     width: 100%;
     margin-top: 9rem;
   }
@@ -650,7 +650,7 @@ a {
   .our {
     margin-top: 7rem;
     width: 100%;
-    margin-left: 0.1rem;
+    margin-left: -0.8rem;
   }
 
   #best {
@@ -660,7 +660,7 @@ a {
   .o {
     margin-top: rem;
     width: 100%;
-    margin-left: 0.1rem;
+    margin-left: -0.8rem;
   }
 
   /* #best {
@@ -674,11 +674,13 @@ a {
 
   .sale {
     width: 2.1rem;
+    display: inline-block;
     height: 2.1rem;
-    margin-left: 6.2rem;
-    margin-top: -9.2rem;
+    margin-left: -1.9rem;
+    margin-top: -0.1rem;
     padding-top: 0.4rem;
-  }
+}
+  
 
   .quick {
     display: none;
@@ -689,18 +691,24 @@ a {
   width: 9rem;
   padding-left: 0.9rem;
   margin-top: 1.5rem; */
-    margin-left: 2rem;
+    /* margin-left: 2rem;
     width: 8rem;
     padding-left: 0.2rem;
+    margin-top: 1.5rem; */
+    margin-left: 2rem;
+    display: block;
+    width: 7rem;
+    padding-left: 0.2rem;
     margin-top: 1.5rem;
-  }
+}
+  
 
   .dollor {
     margin-left: 3.5rem;
   }
 
   .star {
-    margin-left: 1.1rem;
+    margin-left: 0.9rem;
     padding-left: 0.7rem;
   }
 
@@ -872,7 +880,7 @@ a {
 }
 
 .badge {
-  margin-left: 4rem;
+  margin-left: 11rem;
 }
 
 .badge img {
@@ -912,7 +920,7 @@ a {
   }
 
   .badge img {
-    margin-left: -6.9rem;
+    margin-left: -7rem;
     padding: 4rem;
     margin-top: 0rem;
   }
@@ -920,7 +928,7 @@ a {
   .circle img {
     border-radius: 50%;
     border: 3px dotted black;
-    margin-left: -23.3rem;
+    margin-left: -24.3rem;
     margin-top: 3rem;
   }
 }
