@@ -650,7 +650,7 @@ a {
   .our {
     margin-top: 7rem;
     width: 100%;
-    margin-left: -1.4rem;
+    margin-left: -1.2rem;
   }
   #best{
     margin-left: -8rem;
@@ -661,10 +661,8 @@ a {
     margin-left: -1.4rem;
   }
   #best{
-    margin-left: -3rem;
+    margin-left: -3.9rem;
   }
-
-
   .img {
     width: 59%;
     height: 44%;
@@ -682,20 +680,8 @@ a {
     padding-top: 0.4rem;
     padding-left: 0.3rem;
   }
-
   .quick  {
-        color: lavenderblush;
-        position: absolute;
-        width: 15.3rem;
-        margin-top: -1.9rem;
-        margin-left: -6.6rem;
-        text-align: center;
-  }
-
-  .quick:hover {
-    background-color: rgb(60, 53, 53);
-    color: white;
-    width: 21%;
+       display: none;
   }
  .ton{
   margin-left: 3rem;
@@ -878,8 +864,9 @@ a {
 }
 
 .badge img {
-  margin-left: 5rem;
-  margin-top: 5rem;
+  margin-left: -6.5rem;
+  padding: 3.9rem;
+  margin-top: 0rem;
 }
 
 .circle img {
