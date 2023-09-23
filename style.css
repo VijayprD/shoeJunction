@@ -122,7 +122,7 @@ nav .main-nav {
   }
 
   .nav-left {
-    width: 40%;
+    width: 50%;
     margin: 0 0.5rem;
   }
 
@@ -339,7 +339,7 @@ nav .main-nav {
   .about {
     margin: 2rem 4vw;
     border: none;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -468,7 +468,7 @@ nav .main-nav {
 /* responsive for mobile  */
 @media only screen and (max-width: 420px) {
   .first-sec {
-    height: 150vh;
+    height: 120vh;
   }
 
   .first-sec .up h1 {
