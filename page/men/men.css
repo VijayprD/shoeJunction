@@ -48,13 +48,33 @@ nav {
 .upper select:hover {
   border: 1px dotted rgb(74, 73, 73);
 }
-.lower-our{
-display: flex;
-flex-wrap: wrap;
-margin: 4vw -2.5vw;
+.lower {
+  width: 100%;
 }
-
+.lower-our {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4vw 0;
+}
+.our{
+  margin: 0;
+}
+/* responsive  */
+@media only screen and (max-width: 420px) {
+  .upper {
+    margin: 4vw;
+  }
+  .men {
+    height: inherit;
+  }
+  .lower-our {
+    margin: 0 0;
+  }
+  .our {
+    margin-top: 3rem;
+  }
+}
+/* responsive  */
 .full {
-    background-image: url(../../img/Screenshot\ 2023-09-20\ 164917.png);
-    
-  } 
+  background-image: url(../../img/Screenshot\ 2023-09-20\ 164917.png);
+}
