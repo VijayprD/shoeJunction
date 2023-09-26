@@ -50,17 +50,18 @@ p {
 
 /* RESPONSIVE MOBLIE */
 @media only screen and (max-width: 420px) {
-    .sale-img{
-        margin-top: 2rem;
+    .sale-img {
+        margin-top: 9rem;
     }
+
     #gift {
         width: 31%;
         font-size: 4rem;
         height: 29%;
-        padding-left: 1.5rem;
+        padding-left: 1rem;
         margin-left: 8rem;
     }
-    
+
 
     .sale-gift {
         display: block;
@@ -70,16 +71,17 @@ p {
         width: 100%;
         margin-top: 2rem;
         font-size: 40px;
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
+
     .sale-gift p {
         width: 100%;
         margin-left: 1rem;
     }
+
     .sale-gift button {
-        width: 69%;
-        margin-left: 4rem;
+        width: 70%;
+        margin-left: 3rem;
     }
-    
-    
+
 }
