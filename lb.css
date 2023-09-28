@@ -48,7 +48,7 @@
 @media only screen and (max-width: 420px) {
     .lookbook h4 {
         text-align: center;
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
 
@@ -81,6 +81,7 @@
 
     #lookbook-shop {
         margin: 2rem 0;
+        width: 38%;
     }
 
 }
