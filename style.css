@@ -1002,10 +1002,7 @@ footer .footer-last p {
   color: #8e8e8e;
   font-size: 1.2rem;
 }
-footer .box2 {
-  width: 100%;
-  text-align: center;
-}
+
 /* responsive footer  */
 @media only screen and (max-width: 420px) {
   .footer-v {
@@ -1024,6 +1021,10 @@ footer .box2 {
     font-size: 1.3rem;
     line-height: 2rem;
   }
+  footer .box2 {
+  width: 100%;
+  text-align: center;
+}
   .footer-icon .fa-brands {
     padding: 0 3vw;
     font-size: 1.3rem;
