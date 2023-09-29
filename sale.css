@@ -59,7 +59,7 @@ p {
         font-size: 4rem;
         height: 29%;
         padding-left: 1rem;
-        margin-left: 8rem;
+        margin-left: 5.5rem;
     }
 
 
@@ -71,7 +71,7 @@ p {
         width: 100%;
         margin-top: 2rem;
         font-size: 40px;
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
 
     .sale-gift p {
@@ -83,5 +83,10 @@ p {
         width: 70%;
         margin-left: 3rem;
     }
-
+    .female h1 {
+        color: white;
+        font-size: 3rem;
+        margin: 1rem;
+        text-align: center;
+    }
 }
