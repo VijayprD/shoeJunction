@@ -1022,9 +1022,12 @@ footer .footer-last p {
     line-height: 2rem;
   }
   footer .box2 {
-  width: 100%;
-  text-align: center;
-}
+    width: 100%;
+    text-align: center;
+  }
+  footer .box2 .footer-heading {
+    margin: 5vh 0;
+  }
   .footer-icon .fa-brands {
     padding: 0 3vw;
     font-size: 1.3rem;
