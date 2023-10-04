@@ -1,0 +1,92 @@
+.male,
+p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.sale-gift {
+    display: flex;
+    background-color: rgb(225, 214, 214);
+    width: 100%;
+    padding: 2rem;
+}
+
+#gift {
+
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 2.7rem;
+    width: 9%;
+    height: 60%;
+    color: darkolivegreen;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 12rem;
+}
+
+.sale-gift h2 {
+    margin-left: 18rem;
+    margin-top: -3.7rem;
+    font-size: 2rem;
+}
+
+.sale-gift p {
+    margin-left: 18rem;
+    color: #b6b1a1;
+}
+
+.sale-gift button {
+    background-color: darkolivegreen;
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.sale-gift button:hover {
+    background-color: black;
+}
+
+/* RESPONSIVE MOBLIE */
+@media only screen and (max-width: 420px) {
+    .sale-img {
+        margin-top: 9rem;
+    }
+
+    #gift {
+        width: 31%;
+        font-size: 4rem;
+        height: 29%;
+        padding-left: 1rem;
+        margin-left: 5.5rem;
+    }
+
+
+    .sale-gift {
+        display: block;
+    }
+
+    .sale-gift h2 {
+        width: 100%;
+        margin-top: 2rem;
+        font-size: 40px;
+        margin-left: 1rem;
+    }
+
+    .sale-gift p {
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .sale-gift button {
+        width: 70%;
+        margin-left: 3rem;
+    }
+    .female h1 {
+        color: white;
+        font-size: 3rem;
+        margin: 1rem;
+        text-align: center;
+    }
+}

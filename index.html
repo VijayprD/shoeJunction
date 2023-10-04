@@ -1,606 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1,shrink-to-fit=no,user-scalable=false"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>shoeJunction</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,shrink-to-fit=no,user-scalable=false" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_package_v0.16/favicon-16x16.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>shoeJunction</title>
-</head>
-
-<body>
-  <!-- navbar section  -->
-  <nav>
-    <div class="head">
-      <p>Free Express Shipping on all orders with all duties included</p>
-    </div>
-    <div class="main-nav container">
-      <div class="nav-left">
-        <h1><a href="index.html">Shoe-Junction</a></h1>
+  <body>
+    <!-- navbar section  -->
+    <nav>
+      <div class="head">
+        <p>Free Express Shipping on all orders with all duties included</p>
       </div>
-      <div class="nav-mid" id="mob-res">
-        <ul>
-          <li><a href="#">man</a></li>
-          <li><a href="#">women</a></li>
-          <li><a href="#">collection</a></li>
-          <li><a href="#">lookbook</a></li>
-          <li><a href="#">sale</a></li>
-        </ul>
-      </div>
-      <div class="nav-right">
-        <ul>
-          <li class="link"><a href="">our story</a></li>
-          <li class="link"><a href="">contact</a></li>
-          <li class="link">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          </li>
-          <li class="link">
-            <a href=""><i class="fa-solid fa-user"></i></a>
-          </li>
-          <div class="nav-bar" onclick="responsiveNavbar()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- hero sec  -->
-  <section class="hero container" id="hero">
-    <div class="hero-full-sec">
-      <div class="dark">
-        <div class="hero-main">
-          <h1>Feel Like</h1>
-          <h1>Nothing Else</h1>
+      <div class="main-nav container">
+        <div class="nav-left">
+          <h1>
+            <a href="index.html"
+              ><img src="img/Shoe-Junction-removebg-preview.png" alt="logo"
+            /></a>
+          </h1>
         </div>
-        <div class="hero-para">
-          <p>We are online e-commerce store for shoe shop.</p>
+        <div class="nav-mid" id="mob-res">
+          <ul>
+            <li><a href="men.html">man</a></li>
+            <li><a href="women.html">women</a></li>
+            <li><a href="collection.html">collection</a></li>
+            <li><a href="lb.html">lookbook</a></li>
+            <li><a href="sale.html">sale</a></li>
+          </ul>
         </div>
-        <div class="hero-btn">
-          <button>Shop Men</button>
-          <button>Shop Women</button>
-        </div>
-      </div>
-      <div class="logo">
-        <p>AS SEEN IN:</p>
-        <img src="img/recycled-shoe-store-featured-in-logo-1.svg" alt="" />
-        <img src="img/recycled-shoe-store-featured-in-logo-2.svg" alt="" />
-        <img src="img/recycled-shoe-store-featured-in-logo-3.svg" alt="" />
-        <img src="img/recycled-shoe-store-featured-in-logo-4.svg" alt="" />
-        <img src="img/recycled-shoe-store-featured-in-logo-5.svg" alt="" />
-      </div>
-    </div>
-  </section>
-  <!-- About us -->
-  <section class="about">
-    <div class="about-left">
-      <img src="img/recycled-shoe-product-image-003-768x768.jpg" alt="" />
-    </div>
-    <div class="about-right">
-      <div>
-        <p class="about-heading">About Us</p>
-        <h1 class="about-content">
-          Selected materials designed for comfort and sustainability
-        </h1>
-        <p class="about-para">
-          Nullam auctor faucibus ridiculus dignissim sed et auctor sed eget
-          auctor nec sed elit nunc, magna non urna amet ac neque ut quam enim
-          pretium risus gravida ullamcorper adipiscing at ut magna.
-        </p>
-        <p class="about-para"><a href="">Read More</a></p>
-      </div>
-    </div>
-  </section>
-  <!-- Made  -->
-  <section class="first-sec container">
-    <div class="container">
-      <div class="up">
-        <h1>See how your shoes are made</h1>
-        <p>
-          Urna, felis enim orci accumsan urna blandit egestas mattis egestas
-          feugiat viverra ornare donec adipiscing semper aliquet integer risus
-          leo volutpat nulla enim ultrices
-        </p>
-      </div>
-      <div class="lower">
-        <div class="first-sec-left">
-          <div class="box">
-            <p class="no">.01</p>
-            <h2>Pet canvas</h2>
-            <p>
-              Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
-              nulla cursus
-            </p>
-          </div>
-          <hr />
-          <div class="box">
-            <p class="no">.02</p>
-            <h2>Pet canvas</h2>
-            <p>
-              Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
-              nulla cursus
-            </p>
-          </div>
-        </div>
-        <div class="first-sec-mid">
-          <img src="img/recycled-shoe-store-how-shoes-are-made-image.png" alt="" />
-        </div>
-        <div class="first-sec-right">
-          <div class="box">
-            <p class="no">.03</p>
-            <h2>Pet canvas</h2>
-            <p>
-              Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
-              nulla cursus
-            </p>
-          </div>
-          <hr />
-          <div class="box">
-            <p class="no">.04</p>
-            <h2>Pet canvas</h2>
-            <p>
-              Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
-              nulla cursus
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Best seller  -->
-
-  <section class="item">
-    <h1 class="seller">Our Best Seller</h1>
-    <a href="" class="view">
-      <h2 class="all">VIEW ALL BEST SELLERS</h2>
-    </a>
-    <div class="our">
-      <div class="best">
-        <img src="img/recycled-shoe-product-image-007-768x768 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Tan Sneaker</h3>
-        <p class="dollor">$80.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-006-400x400.jpg" alt="" class="img" />
-        <!-- <p class="sale">Sale !</p> -->
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Men's moon Sneaker</h3>
-        <p class="dollor">$74.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-004-600x600.jpg" alt="" class="img" />
-        <!-- <p class="sale">Sale !</p> -->
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Cream Suede</h3>
-        <p class="dollor">$59.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="o">
-      <div class="best">
-        <img src="img/recycled-shoe-product-image-002.jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Tan Sneaker</h3>
-        <p class="dollor">$89.90</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-008-768x768 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Men's moon Sneaker</h3>
-        <p class="dollor">$69.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-011 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Cream Suede</h3>
-        <p class="dollor">$60.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Cat  -->
-
-  <section class="container">
-    <div class="catogroy">
-      <div class="male">
-        <h1>Men</h1>
-        <button><a href="">SHOP MEN</a></button>
-      </div>
-      <div class="female">
-        <h1>Women</h1>
-        <button><a href="">SHOP WOMEN</a></button>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- New item  -->
-
-  <section class="item" id="item">
-    <h1 class="seller">New Arrival</h1>
-    <a href="" class="view">
-      <h2 class="all">VIEW ALL NEW ARRIVAL</h2>
-    </a>
-    <div class="our">
-      <div class="best">
-        <img src="img/recycled-shoe-product-image-006-400x400.jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Tan Sneaker</h3>
-        <p class="dollor">$80.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-007-768x768 (1).jpg" alt="" class="img" />
-        <!-- <p class="sale">Sale !</p> -->
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Men's moon Sneaker</h3>
-        <p class="dollor">$74.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-010 (1).jpg" alt="" class="img" />
-        <!-- <p class="sale">Sale !</p> -->
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Cream Suede</h3>
-        <p class="dollor">$59.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="o">
-      <div class="best">
-        <img src="img/recycled-shoe-product-image-002.jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Tan Sneaker</h3>
-        <p class="dollor">$89.90</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-008-768x768 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Men's moon Sneaker</h3>
-        <p class="dollor">$69.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-011 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Cream Suede</h3>
-        <p class="dollor">$60.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="o">
-      <div class="best">
-        <img src="img/recycled-shoe-product-image-017-768x768 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Tan Sneaker</h3>
-        <p class="dollor">$89.90</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-018-768x768 (1).jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Men's moon Sneaker</h3>
-        <p class="dollor">$69.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-      <div id="best">
-        <img src="img/recycled-shoe-product-image-014-768x768.jpg" alt="" class="img" />
-        <p class="sale">Sale!</p>
-        <a href="">
-          <p class="quick">Quick View</p>
-        </a>
-        <h3 class="ton">Women's Cream Suede</h3>
-        <p class="dollor">$60.00</p>
-        <div class="star">
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-          <i class="fa-regular fa-star"></i>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- second made -->
-  <section class="container" id="second-made">
-    <div>
-      <div class="eu">
-        <p>Eu eget felis erat mauris aliquam mattis lacus, arcu leo aliquam sapien pulvinar laoreet vulputate sem
-          aliquet phasellus egestas felis, est, vulputate morbi massa mauris vestibulum dui odio.</p>
-      </div>
-
-      <div class="badge">
-        <img src="img/recycled-shoe-badge-2.svg" alt="">
-        <img src="img/recycled-shoe-badge-3.svg" alt="">
-        <img src="img/recycled-shoe-badge-1.svg" alt="">
-      </div>
-    </div>
-    <div class="circle">
-      <img src="img/recycled-shoe-store-recycled-circle-iamge-300x300.jpg" alt="">
-    </div>
-  </section>
-  <!-- Customer -->
-  <section class="cheka">
-    <div class="radu">
-      <h2 style="text-align: center; line-height: 1.3rem; font-weight: 500;"><b>Our Customers speak for us</b></h2>
-    </div>
-    <div class="maincur">
-      <div class="cusr1">
-        <div class="fastar">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-        </div>
-        <div class="mainpara">
-          <p>“Felis semper duis massa scelerie ac amet porttitor ac tellus venenatis aliquam varius mauris integer”</p>
-          <div class="name">
-            <img style="border-radius: 80px;" src="./vikas.jpeg" alt="" height="40" width="40">
-            <span style="font-size: 15px; font-weight: 100;"> Vikash Dubey(CEO)</span>
-          </div>
-        </div>
-      </div>
-      <div class="cusr1">
-        <div class="rat2">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-        </div>
-        <div class="mainpara2">
-          <p>“Non malesuada fringilla non varius odio in id pellentesque aliquam volutpat sapien faucibus ”</p>
-          <div class="name2">
-            <img src="./vikas.jpeg" height="40" width="40">
-            <span style="font-size: 15px; font-weight: 100;"> Vikash Dubey(CEO)</span>
-          </div>
-        </div>
-        <div class="maincurs2">
-          <div class="cusr2">
-            <div class="rat3">
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
-              <span class="fa fa-star checked"></span>
+        <div class="nav-right">
+          <ul>
+            <li class="link"><a href="">our story</a></li>
+            <li class="link"><a href="">contact</a></li>
+            <li class="link">
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="link">
+              <a href=""><i class="fa-solid fa-user"></i></a>
+            </li>
+            <div class="nav-bar" onclick="responsiveNavbar()">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
             </div>
-            <div class="mainpara3">
-              <p>“Tortor suspendisse tincidunt accumsan platea pellentesque hac.”</p>
-              <div class="name3">
-                <img style="border-radius: 100px;" src="./vikas.jpeg" height="40" width="40">
-                <span style="font-size: 15px; font-weight: 100;"> Vikash Dubey(CEO)</span>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- hero sec  -->
+    <section class="hero container" id="hero">
+      <div class="hero-full-sec">
+        <div class="dark">
+          <div class="hero-main">
+            <h1>Feel Like</h1>
+            <h1>Nothing Else</h1>
+          </div>
+          <div class="hero-para">
+            <p>We are online e-commerce store for shoe shop.</p>
+          </div>
+          <div class="hero-btn">
+            <button>Shop Men</button>
+            <button>Shop Women</button>
+          </div>
+        </div>
+        <div class="logo">
+          <p>AS SEEN IN:</p>
+          <img src="img/recycled-shoe-store-featured-in-logo-1.svg" alt="" />
+          <img src="img/recycled-shoe-store-featured-in-logo-2.svg" alt="" />
+          <img src="img/recycled-shoe-store-featured-in-logo-3.svg" alt="" />
+          <img src="img/recycled-shoe-store-featured-in-logo-4.svg" alt="" />
+          <img src="img/recycled-shoe-store-featured-in-logo-5.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- About us -->
+    <section class="about">
+      <div class="about-left">
+        <img src="img/recycled-shoe-product-image-003-768x768.jpg" alt="" />
+      </div>
+      <div class="about-right">
+        <div>
+          <p class="about-heading">About Us</p>
+          <h1 class="about-content">
+            Selected materials designed for comfort and sustainability
+          </h1>
+          <p class="about-para">
+            Nullam auctor faucibus ridiculus dignissim sed et auctor sed eget
+            auctor nec sed elit nunc, magna non urna amet ac neque ut quam enim
+            pretium risus gravida ullamcorper adipiscing at ut magna.
+          </p>
+          <p class="about-para"><a href="">Read More</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Made  -->
+    <section class="first-sec container">
+      <div class="container">
+        <div class="up">
+          <h1>See how your shoes are made</h1>
+          <p>
+            Urna, felis enim orci accumsan urna blandit egestas mattis egestas
+            feugiat viverra ornare donec adipiscing semper aliquet integer risus
+            leo volutpat nulla enim ultrices
+          </p>
+        </div>
+        <div class="lower">
+          <div class="first-sec-left">
+            <div class="box">
+              <p class="no">.01</p>
+              <h2>Pet canvas</h2>
+              <p>
+                Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
+                nulla cursus
+              </p>
+            </div>
+            <hr />
+            <div class="box">
+              <p class="no">.02</p>
+              <h2>Pet canvas</h2>
+              <p>
+                Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
+                nulla cursus
+              </p>
+            </div>
+          </div>
+          <div class="first-sec-mid">
+            <img
+              src="img/recycled-shoe-store-how-shoes-are-made-image.png"
+              alt=""
+            />
+          </div>
+          <div class="first-sec-right">
+            <div class="box">
+              <p class="no">.03</p>
+              <h2>Pet canvas</h2>
+              <p>
+                Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
+                nulla cursus
+              </p>
+            </div>
+            <hr />
+            <div class="box">
+              <p class="no">.04</p>
+              <h2>Pet canvas</h2>
+              <p>
+                Morbi eget bibendum sit adipiscing morbi ac nisl vitae maecenas
+                nulla cursus
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best seller  -->
+
+    <section class="item">
+      <h1 class="seller">Our Best Seller</h1>
+      <a href="" class="view">
+        <h2 class="all">VIEW ALL BEST SELLERS</h2>
+      </a>
+      <div class="our">
+        <div class="best">
+          <img
+            src="img/recycled-shoe-product-image-007-768x768 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Tan Sneaker</h3>
+          <p class="dollor">$80.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-006-400x400.jpg"
+            alt=""
+            class="img"
+          />
+          <!-- <p class="sale">Sale !</p> -->
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Men's moon Sneaker</h3>
+          <p class="dollor">$74.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-004-600x600.jpg"
+            alt=""
+            class="img"
+          />
+          <!-- <p class="sale">Sale !</p> -->
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Cream Suede</h3>
+          <p class="dollor">$59.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="o">
+        <div class="best">
+          <img
+            src="img/recycled-shoe-product-image-002.jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Tan Sneaker</h3>
+          <p class="dollor">$89.90</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-008-768x768 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Men's moon Sneaker</h3>
+          <p class="dollor">$69.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-011 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Cream Suede</h3>
+          <p class="dollor">$60.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cat  -->
+
+    <section class="container">
+      <div class="catogroy">
+        <div class="male">
+          <h1>Men</h1>
+          <button><a href="">SHOP MEN</a></button>
+        </div>
+        <div class="female">
+          <h1>Women</h1>
+          <button><a href="">SHOP WOMEN</a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- New item  -->
+
+    <section class="item" id="item">
+      <h1 class="seller">New Arrival</h1>
+      <a href="" class="view">
+        <h2 class="all">VIEW ALL NEW ARRIVAL</h2>
+      </a>
+      <div class="our">
+        <div class="best">
+          <img
+            src="img/recycled-shoe-product-image-006-400x400.jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Tan Sneaker</h3>
+          <p class="dollor">$80.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-007-768x768 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <!-- <p class="sale">Sale !</p> -->
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Men's moon Sneaker</h3>
+          <p class="dollor">$74.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-010 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <!-- <p class="sale">Sale !</p> -->
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Cream Suede</h3>
+          <p class="dollor">$59.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="o">
+        <div class="best">
+          <img
+            src="img/recycled-shoe-product-image-002.jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Tan Sneaker</h3>
+          <p class="dollor">$89.90</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-008-768x768 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Men's moon Sneaker</h3>
+          <p class="dollor">$69.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-011 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Cream Suede</h3>
+          <p class="dollor">$60.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="o">
+        <div class="best">
+          <img
+            src="img/recycled-shoe-product-image-017-768x768 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Tan Sneaker</h3>
+          <p class="dollor">$89.90</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-018-768x768 (1).jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Men's moon Sneaker</h3>
+          <p class="dollor">$69.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div id="best">
+          <img
+            src="img/recycled-shoe-product-image-014-768x768.jpg"
+            alt=""
+            class="img"
+          />
+          <p class="sale">Sale!</p>
+          <a href="">
+            <p class="quick">Quick View</p>
+          </a>
+          <h3 class="ton">Women's Cream Suede</h3>
+          <p class="dollor">$60.00</p>
+          <div class="star">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- second made -->
+    <section class="container" id="second-made">
+      <div>
+        <div class="eu">
+          <p>
+            Eu eget felis erat mauris aliquam mattis lacus, arcu leo aliquam
+            sapien pulvinar laoreet vulputate sem aliquet phasellus egestas
+            felis, est, vulputate morbi massa mauris vestibulum dui odio.
+          </p>
+        </div>
+
+        <div class="badge">
+          <img src="img/recycled-shoe-badge-2.svg" alt="" />
+          <img src="img/recycled-shoe-badge-3.svg" alt="" />
+          <img src="img/recycled-shoe-badge-1.svg" alt="" />
+        </div>
+      </div>
+      <div class="circle">
+        <img
+          src="img/recycled-shoe-store-recycled-circle-iamge-300x300.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- Customer -->
+    <section class="cheka">
+      <div class="radu">
+        <h2 style="text-align: center; line-height: 1.3rem; font-weight: 500">
+          <b>Our Customers speak for us</b>
+        </h2>
+      </div>
+      <div class="maincur">
+        <div class="cusr1">
+          <div class="fastar">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <div class="mainpara">
+            <p>
+              “Felis semper duis massa scelerie ac amet porttitor ac tellus
+              venenatis aliquam varius mauris integer”
+            </p>
+            <div class="name">
+              <img
+                style="border-radius: 80px"
+                src="img/vikas.jpeg"
+                alt=""
+                height="40"
+                width="40"
+              />
+              <span style="font-size: 15px; font-weight: 100">
+                Vikash Dubey(CEO)</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="cusr1">
+          <div class="rat2">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <div class="mainpara2">
+            <p>
+              “Non malesuada fringilla non varius odio in id pellentesque
+              aliquam volutpat sapien faucibus ”
+            </p>
+            <div class="name2">
+              <img src="img/vikas.jpeg" height="40" width="40" />
+              <span style="font-size: 15px; font-weight: 100">
+                Vikash Dubey(CEO)</span
+              >
+            </div>
+          </div>
+          <div class="maincurs2">
+            <div class="cusr2">
+              <div class="rat3">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+              <div class="mainpara3">
+                <p>
+                  “Tortor suspendisse tincidunt accumsan platea pellentesque
+                  hac.”
+                </p>
+                <div class="name3">
+                  <img
+                    style="border-radius: 100px"
+                    src="img/vikas.jpeg"
+                    height="40"
+                    width="40"
+                  />
+                  <span style="font-size: 15px; font-weight: 100">
+                    Vikash Dubey(CEO)</span
+                  >
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="rev1">
-          <p style="font-size: 16px; font-weight: 600;">4.8 average rating from 1814 reviews</p>
+          <div class="rev1">
+            <p style="font-size: 16px; font-weight: 600">
+              4.8 average rating from 1814 reviews
+            </p>
+          </div>
         </div>
       </div>
-    
-  </section>
-  <!-- appericate -->
-
-  <body>
+    </section>
+    <!-- appericate -->
     <div class="full">
       <div id="head1">
         <h1 class="mainhead">Better for People & the Planet</h1>
-        <p class="mainpara">Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est dictum in vulputate</p>
+        <p class="mainpara">
+          Ut eget at et aliquam sit quis nisl, pharetra et ac pharetra est
+          dictum in vulputate
+        </p>
         <div class="btnmain">
-          <button class="boxx"><a href="#"><b>Shop Men</b></a></button>
-          <button class="boxx1"><a href="#"><b>Shop Men</b></a></button>
+          <button class="boxx">
+            <a href="#"><b>Shop Men</b></a>
+          </button>
+          <button class="boxx1">
+            <a href="#"><b>Shop Men</b></a>
+          </button>
         </div>
       </div>
     </div>
+    <!-- Footer  -->
+    <div class="container1 container">
+      <div class="secure">
+        <h2><i class="fa-solid fa-lock"></i> Secure Payment</h2>
+      </div>
+      <div class="secure1">
+        <h2><i class="fa-solid fa-truck"></i> Free Shipping</h2>
+      </div>
+      <div class="secure2">
+        <h2><i class="fa-solid fa-recycle"></i> Free Return</h2>
+      </div>
+    </div>
+    <footer >
+      <div class="footer-v container">
+        <div class="box1">
+          <h1><a href="index.html"
+            >Shoe-Junction</a></h1>
+          <p>Praesent eget tortor sit risus egestas nulla pharetra ornare quis bibendum est bibendum sapien proin nascetur</p>
+          <div class="footer-icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-paypal"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="box2">
+          <p class="footer-heading">Shop</p>
+          <p><a href="">Shop Men</a></p>
+          <p><a href="">Shop Women</a></p>
+          <p><a href="">Lookbook</a></p>
+          <p><a href="">Gift Card</a></p>
+          <p><a href="">Sale</a></p>
+        </div>
+        <div class="box2">
+          <p class="footer-heading">About</p>
+          <p><a href="">Our Story</a></p>
+          <p><a href="">Our Materials</a></p>
+          <p><a href="">Our Value</a></p>
+          <p><a href="">Sustainability</a></p>
+          <p><a href="">Manufacture</a></p>
+        </div>
+        <div class="box2">
+          <p class="footer-heading">Need Help?</p>
+          <p><a href="">FAQs</a></p>
+          <p><a href="">Shipping & Returns</a></p>
+          <p><a href="">Shoe Care</a></p>
+          <p><a href="">Size Chart</a></p>
+          <p><a href="">Contact Us</a></p>
+        </div>
+      </div>
+      <div class="footer-last">
+        <p>© 2023 Recycled Shoe Store. Powered by Recycled Shoe Store.</p>
+        <img src="img/payment-icons.png" alt="payment-icons">
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
-  <!-- Footer  -->
-  <div class="container1">
-    <div class="secure">
-      <h2><i class="fa-solid fa-lock"></i>Secure Payment</h2>
-    </div>
-    <div class="secure1">
-      <h2><i class="fa-solid fa-truck"></i>Free Shipping</h2>
-    </div>
-    <div class="secure2">
-      <h2><i class="fa-solid fa-recycle"></i>Return</h2>
-    </div>
-  </div>
-  <footer>
-      <div class="pla">
-          <div id="title"><a href="#">Shoe-Junction</a></div>
-          <div id="subtitle">
-              <div>Praesent eget tortor</div>
-              <div>sit risus egestas nulla</div>
-              <div>pharetra ornare quis</div>
-              <div>bibendum est</div>
-              <div>bibendum sapien</div>
-              <div>proin nascetur</div>
-          </div>
-      </div>
-      <div class="start">
-          <div id="title">Shop</div>
-          <div id="subtitle">
-              <div><a href="#">Shop Men</a></div>
-              <div><a href="#">Shop</a></div>
-              <div><a href="#">Women</a></div>
-              <div><a href="#">Lookbook</a></div>
-              <div><a href="#">Gift Card</a></div>
-              
-          </div>
-      </div>
-      <div>
-          <div id="title">About</div>
-          <div id="subtitle">
-              <div><a href="#">Our Story</a></div>
-              <div><a href="#">Our Materials</a></div>
-              <div><a href="#">Our Value</a></div>
-              <div><a href="#">Sustainability</a></div>
-              <div><a href="#">Manufacture</a></div>
-          </div>
-      </div>
-      <div>
-          <div id="title">Need Help ?</div>
-          <div id="subtitle">
-              <div><a href="#">FAQs</a></div>
-              <div><a href="#">Shipping & Returns</a></div>
-              <div><a href="#">Shoe Care</a></div>
-              <div><a href="#">Size Chart</a></div>
-              <div><a href="#">Contact Us</a></div>
-          </div>
-      </div>
-      <div class="containerback">
-          <div class="box-1"><a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a></div>
-          <div class="box-1"><a href="#"><i class="fa-brands fa-pinterest-p fa-2xl"></i></a></div>
-          <div class="box-1"><a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
-          <div class="box-1"><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
-      </div>
-
-      </div>
-      
-  </footer>
-  <script src="script.js"></script>
-</body>
-
 </html>
