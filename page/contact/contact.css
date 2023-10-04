@@ -1,0 +1,53 @@
+.co1 h1{
+
+   text-align: center;
+   font-size: 4rem;
+   font-weight: 550;
+   font-family: 'Poppins',sans-serif;
+   }
+   .cdec1 h5{
+      margin-top: -19px;
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 300;
+   }
+   .cdec1 p{
+      margin-left: 25px;
+      margin-top: -17px;
+      font-size: 14px;
+      font-weight: 300;
+  }
+  .cdec2 h5{
+   margin-top: -19px;
+   margin-left: 25px;
+   font-size: 18px;
+   font-weight: 300;
+}
+.cdec2 p{
+   margin-left: 25px;
+   margin-top: -17px;
+   font-size: 14px;
+   font-weight: 300;
+}
+.cdec3 h5{
+   margin-top: -19px;
+   margin-left: 25px;
+   font-size: 18px;
+   font-weight: 300;
+}
+.cdec3 p{
+   margin-left: 25px;
+   margin-top: -17px;
+   font-size: 14px;
+   font-weight: 300;
+}
+.csocial{
+   display: flex;
+   justify-content: start;
+    gap: 12px;
+    font-size: 18px;
+}
+.cfl{
+   display: flex;
+}
+
