@@ -1,0 +1,282 @@
+  .con h1{
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+  }
+ 
+  
+  
+  .mainform{
+     background-color: #f1f1ef;
+     height: 598px;
+     width: 100%;
+   }
+   .fa-solid{
+    font-weight: 900;
+    margin-top: 90px;
+    margin-left: 80px;
+   }
+   .mainform h4{
+    margin-top: -20px;
+    margin-left: 110px;
+    font-size: 20px;
+    font-weight: 400;
+   }
+   .mp p{
+    margin-top: -18px;
+    margin-left: 110px;
+}
+.inf{
+  margin-left: 110px;
+  font-size: 19px;
+}
+.social{
+  margin-top: -15px;
+  margin-left: 13px;
+}
+.udetail input{
+  height: 51px;
+  width: 650px;
+  margin-left: 570px;
+}
+#unam{
+  font-size: 19px;
+  font-weight: 700;
+  color: #7a7a7a;
+  margin-left: 570px;
+}
+.udetail{
+  margin-top: -480px;
+}
+.edetail input{
+  height: 51px;
+    width: 650px;
+}
+.edetail{
+  margin-left: 570px;
+  margin-top: 30px;
+}
+#uemail{
+  font-size: 19px;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+form textarea{
+  height: 120px;
+  width: 650px;
+}
+.emsg{
+  margin-left: 570px;
+  margin-top: 30px;
+}
+#umsg{
+  font-size: 19px;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+.div{
+  margin-left: 80px;
+  margin-right: 1265px;
+}
+
+.btnp button{
+  height: 54px;
+  width: 197px;
+  margin-left: 570px;
+  margin-top: 30px;
+  background-color: #6e7051;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+
+  .btnp  button:hover{
+        background-color: black;
+    } 
+    .cdec1{
+        margin-top: 80px;
+    }
+  
+   .dsum{
+      height: 383px;
+      width: 640px;
+   }
+   .mainf{
+   width: 100%;
+   --widgets-spacing: 20px;
+   position: relative;
+   margin-left: 450px;
+   margin-top: 50px;
+   }
+ summary{
+   border: 1px solid #d5d8dc;
+   height: 57px;
+   width: 640px;
+   font-weight: 600;
+   font-size: 19px;
+   color: inherit;
+   text-align: left;
+   line-height: 1.4em;
+   padding: 15px 20px 15px 20px;
+   box-sizing: border-box;
+   border-bottom: none;
+ }
+ details p{
+   height: 70px;
+   border: 1px solid #d5d8dc;
+   padding: 15px 20px 25px 20px;
+  border-top: 1px solid #d5d8dc;
+  text-align: left;
+  --widgets-spacing: 20px;
+
+ }
+ .setp{
+   margin-top: -17px;
+   width: 640px;
+   height: 107px;
+ }
+ .sdeta{
+height: 550px;
+margin-top: 100px;
+ }
+ 
+/* responsive contact */
+ @media only screen and (max-width: 420px){
+ .con h1{
+  letter-spacing: -2px;
+  line-height: 1.1em;
+  color: black;
+  font-size: 120px;
+  font-weight: 600;
+  font-family: 'Poppins',sans-serif;
+  }
+  .mainform {
+    background-color: #f1f1ef;
+    height: 3100px;
+    width: 100%;
+  }
+.mphn{
+  margin-left: 460px;
+  font-size: 36px;
+}
+.mainform h4 {
+  margin-top: 30px;
+  margin-left: 350px;
+  font-size: 70px;
+  font-weight: 500;
+}
+.udetail input {
+  height: 111px;
+  width: 953px;
+  margin-left: 440px;
+}
+.edetail input {
+  height: 111px;
+  width: 953px;
+  margin-left: -440px;
+}
+#uemail {
+  font-size: 59px;
+  font-weight: 500;
+  color: #7a7a7a;
+  margin-left: -440px;
+}
+#unam {
+    font-size: 59px;
+    font-weight: 500;
+    color: #7a7a7a;
+    margin-left: 440px;
+}
+.mp p {
+  margin-top: -18px;
+  margin-left: 380px;
+  font-size: 55px;
+}
+.inf {
+    margin-left: 355px;
+    font-size: 65px;
+}
+.social {
+  margin-top: -20px;
+  margin-left: 87px;
+}
+
+.udetail{
+  margin-top: 100px;
+  margin-left: -310px;
+}
+.edetail {
+  margin-left: 570px;
+  margin-top: 90px;
+}
+.emsg {
+  margin-left: 570px;
+  margin-top: 100px;
+}
+#umsg {
+  font-size: 59px;
+  font-weight: 500;
+  color: #7a7a7a;
+  height: 350px;
+  margin-left: -440px;
+  width: 953px;
+}
+.btnp button {
+  height: 111px;
+  width: 457px;
+  margin-left: 140px;
+  margin-top: 50px;
+  background-color: #6e7051;
+  color: white;
+  font-size: 49px;
+  font-weight: 600;
+}
+
+.sdeta {
+  height: 950px;
+  margin-top: 100px;
+}
+.freq{
+  font-size: 34px;
+}
+  .pfreq {
+    font-size: 30px;
+    font-weight: 500;
+}
+summary {
+  border: 1px solid #d5d8dc;
+  height: 107px;
+  width: 1120px;
+  font-weight: 600;
+  font-size: 44px;
+  color: grey;
+  text-align: left;
+  line-height: 1.4em;
+  padding: 15px 20px 15px 20px;
+  box-sizing: border-box;
+  border-bottom: none;
+}
+.mainf {
+  width: 100%;
+  --widgets-spacing: 20px;
+  position: relative;
+  margin-left: 120px;
+  margin-top: 50px;
+  height: 980px;
+}
+details p {
+  height: 52px;
+  border: 1px solid #d5d8dc;
+  padding: 15px 20px 25px 20px;
+  border-top: 1px solid #d5d8dc;
+  text-align: left;
+  --widgets-spacing: 20px;
+  width: 1073px;
+  font-size: 35px;
+}
+
+
+
+}
